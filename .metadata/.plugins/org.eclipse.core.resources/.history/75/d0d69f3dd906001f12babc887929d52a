@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="AUTH_LOG" value="log/authlogs.log"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${AUTH_LOG}</file>
+        
+        <append>true</append>
+        <encoder>
+            <pattern>[%-5level] %d{dd-MM-yyyy hh:mm:ss.SSS a} [%thread]  %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+<!-- additivity as false appends only to file and not to console -->
+    <logger name="com.sudipta.auth.*" level="info">
+        <!-- <appender-ref ref="CONSOLE"/> -->
+        <appender-ref ref="FILE"/>
+    </logger>
+
+	
+    <root level="debug">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

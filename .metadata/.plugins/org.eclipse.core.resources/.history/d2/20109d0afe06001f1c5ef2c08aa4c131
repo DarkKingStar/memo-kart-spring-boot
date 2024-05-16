@@ -1,0 +1,16 @@
+19:56:51.524 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:56:51.542 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application MEMO-KART-AUTH with eureka with status DOWN
+19:56:51.542 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1714487211542, current=DOWN, previous=UP]
+19:56:51.542 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000: registering service...
+19:56:51.563 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-5000"]
+19:56:51.563 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - registration status: 204
+19:56:51.566 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:56:51.569 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5000"]
+19:56:51.572 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-5000"]
+19:56:51.577 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:56:51.578 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+19:56:51.587 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+19:56:51.587 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+19:56:54.589 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+19:56:54.607 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - deregister  status: 200
+19:56:54.610 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

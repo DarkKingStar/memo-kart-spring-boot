@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="AUTH_LOG" value="log/mylogs.log"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${AUTH_LOG}</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+        <fileNamePattern>${AUTH_LOG}.%d{yyyy-MM-dd_HH-mm}.log</fileNamePattern>
+        <maxHistory>60</maxHistory>
+    </rollingPolicy>
+    <encoder>
+        <pattern>[%-5level] %d{dd-MM-yyyy hh:mm:ss.SSS a} [%thread]  %logger{50} - %msg%n</pattern>
+    </encoder>
+</appender>
+
+<logger name="com.sudipta" level="error">
+    <appender-ref ref="FILE"/>
+</logger>
+
+
+
+    
+    <root level="debug">
+        <appender-ref ref="CONSOLE"/>
+         <appender-ref ref="FILE"/>
+    </root>
+</configuration>

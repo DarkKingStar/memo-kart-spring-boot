@@ -1,0 +1,106 @@
+2024-04-30T20:23:54.845+0530 ERROR [http-nio-5000-exec-2] c.s.auth.exception.GlobleException - Validation failed for classes [com.sudipta.auth.modal.User] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!', propertyPath=password, rootBeanClass=class com.sudipta.auth.modal.User, messageTemplate='Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!'}
+]
+2024-04-30T20:23:54.884+0530 WARN  [http-nio-5000-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.validation.ConstraintViolationException: Validation failed for classes [com.sudipta.auth.modal.User] during persist time for groups [jakarta.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!', propertyPath=password, rootBeanClass=class com.sudipta.auth.modal.User, messageTemplate='Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!'}<EOL>]]
+2024-04-30T20:24:04.567+0530 ERROR [http-nio-5000-exec-3] c.s.auth.exception.GlobleException - Validation failed for classes [com.sudipta.auth.modal.User] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!', propertyPath=password, rootBeanClass=class com.sudipta.auth.modal.User, messageTemplate='Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!'}
+]
+2024-04-30T20:24:04.569+0530 WARN  [http-nio-5000-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.validation.ConstraintViolationException: Validation failed for classes [com.sudipta.auth.modal.User] during persist time for groups [jakarta.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!', propertyPath=password, rootBeanClass=class com.sudipta.auth.modal.User, messageTemplate='Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!'}<EOL>]]
+2024-04-30T20:24:14.341+0530 ERROR [http-nio-5000-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.authentication.BadCredentialsException: invalid token...
+	at com.sudipta.auth.config.JwtTokenValidator.doFilterInternal(JwtTokenValidator.java:54)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:188)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:174)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-04-30T20:24:50.735+0530 INFO  [http-nio-5000-exec-5] c.s.auth.controller.AuthController - Logger:Sign in successfully
+2024-04-30T20:25:00.442+0530 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-04-30T20:26:45.797+0530 ERROR [http-nio-5000-exec-8] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:45.798+0530 ERROR [http-nio-5000-exec-8] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:45.800+0530 WARN  [http-nio-5000-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:48.937+0530 ERROR [http-nio-5000-exec-9] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:48.938+0530 ERROR [http-nio-5000-exec-9] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:48.941+0530 WARN  [http-nio-5000-exec-9] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:50.368+0530 ERROR [http-nio-5000-exec-10] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:50.369+0530 ERROR [http-nio-5000-exec-10] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:50.371+0530 WARN  [http-nio-5000-exec-10] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:51.200+0530 ERROR [http-nio-5000-exec-1] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:51.201+0530 ERROR [http-nio-5000-exec-1] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:51.202+0530 WARN  [http-nio-5000-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:52.055+0530 ERROR [http-nio-5000-exec-2] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:52.056+0530 ERROR [http-nio-5000-exec-2] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:52.057+0530 WARN  [http-nio-5000-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:55.005+0530 ERROR [http-nio-5000-exec-3] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:55.006+0530 ERROR [http-nio-5000-exec-3] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:55.007+0530 WARN  [http-nio-5000-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:55.181+0530 ERROR [http-nio-5000-exec-4] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:55.182+0530 ERROR [http-nio-5000-exec-4] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:55.183+0530 WARN  [http-nio-5000-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:55.372+0530 ERROR [http-nio-5000-exec-5] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:55.373+0530 ERROR [http-nio-5000-exec-5] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:55.374+0530 WARN  [http-nio-5000-exec-5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:55.571+0530 ERROR [http-nio-5000-exec-6] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:55.571+0530 ERROR [http-nio-5000-exec-6] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:55.573+0530 WARN  [http-nio-5000-exec-6] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]
+2024-04-30T20:26:55.769+0530 ERROR [http-nio-5000-exec-7] c.s.auth.controller.AuthController - Logger:Invalid username or password
+2024-04-30T20:26:55.770+0530 ERROR [http-nio-5000-exec-7] c.s.auth.exception.GlobleException - Invalid username or password
+2024-04-30T20:26:55.771+0530 WARN  [http-nio-5000-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Invalid username or password]

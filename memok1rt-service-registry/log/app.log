@@ -1,0 +1,50 @@
+2024-04-30T20:15:20.415+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:16:20.415+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:17:20.415+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:18:20.429+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2024-04-30T20:19:20.429+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:20:20.432+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2024-04-30T20:21:20.433+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:22:20.446+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2024-04-30T20:23:20.447+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:24:20.283+0530 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 13
+2024-04-30T20:24:20.460+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2024-04-30T20:25:20.461+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2024-04-30T20:26:20.461+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:27:20.462+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:28:20.462+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:29:20.463+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:30:20.473+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2024-04-30T20:31:20.477+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2024-04-30T20:32:20.490+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2024-04-30T20:33:20.491+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:34:20.492+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-04-30T20:35:20.499+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2024-04-30T20:36:20.507+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2024-04-30T20:37:20.513+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2024-04-30T20:38:20.526+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2024-04-30T20:39:20.286+0530 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 13
+2024-04-30T20:39:20.527+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2024-04-30T20:40:20.530+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2024-04-30T20:41:20.540+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2024-04-30T20:42:20.546+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2024-04-30T20:43:20.560+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2024-04-30T20:44:20.573+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2024-04-30T20:45:20.580+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2024-04-30T20:46:20.595+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2024-04-30T20:47:20.607+0530 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2024-04-30T20:47:49.985+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-04-30T20:47:49.995+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application MEMOKART-SERVICE-REGISTRY with eureka with status DOWN
+2024-04-30T20:47:50.015+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+2024-04-30T20:47:50.051+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2024-04-30T20:47:50.068+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2024-04-30T20:47:50.077+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.n.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-04-30T20:47:50.080+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.n.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-04-30T20:47:50.081+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.n.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-04-30T20:47:50.082+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.n.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-04-30T20:47:50.118+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shut down
+2024-04-30T20:47:50.118+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2024-04-30T20:47:50.121+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2024-04-30T20:47:50.131+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.n.e.DefaultEurekaServerContext - Shut down
+2024-04-30T20:47:50.148+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-04-30T20:47:50.151+0530 INFO  [RMI TCP Connection(44)-127.0.0.1] c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

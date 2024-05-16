@@ -1,0 +1,62 @@
+package com.sudipta.auth.serviceImpl;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.sudipta.auth.config.JwtTokenProvider;
+import com.sudipta.auth.exception.UserException;
+import com.sudipta.auth.modal.User;
+import com.sudipta.auth.repository.UserRepository;
+import com.sudipta.auth.service.UserService;
+
+@Service
+
+public class UserServiceImplementation implements UserService {
+	@Autowired
+	private UserRepository userRepository;
+	@Autowired
+	private JwtTokenProvider jwtTokenProvider;
+	
+	private static final Logger log=LoggerFactory.getLogger(UserServiceImplementation.class);
+
+	@Override
+	public User findUserById(Long userId) throws UserException {
+		Optional<User> user=userRepository.findById(userId);
+		
+		if(user.isPresent()){
+			return user.get();
+		}
+		log.error("user not found with id");
+		throw new UserException("user not found with id "+userId);
+	}
+
+	@Override
+	public User findUserProfileByJwt(String jwt) throws UserException {
+		System.out.println("user service");
+		String email=jwtTokenProvider.getEmailFromJwtToken(jwt);
+		
+		System.out.println("email"+email);
+		
+		User user=userRepository.findByEmail(email);
+		
+		if(user==null) {
+			log.error("user not exist with email");
+			throw new UserException("user not exist with email "+email);
+		}
+		System.out.println("email user"+user.getEmail());
+		return user;
+	}
+
+	@Override
+	public List<User> findAllUsers() {
+		// TODO Auto-generated method stub
+		return userRepository.findAllByOrderByCreatedAtDesc();
+	}
+
+	
+}

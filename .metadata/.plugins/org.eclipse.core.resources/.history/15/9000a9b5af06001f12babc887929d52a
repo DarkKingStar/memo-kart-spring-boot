@@ -1,0 +1,165 @@
+2024-04-30T10:35:09.024+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : Starting AuthApplication using Java 17.0.9 with PID 21476 (C:\Users\SUDIPSAH\OneDrive - Capgemini\Desktop\MemoKart 2904\spring boot microservices\memok3rt-auth\target\classes started by sudipsah in C:\Users\SUDIPSAH\OneDrive - Capgemini\Desktop\MemoKart 2904\spring boot microservices\memok3rt-auth)
+2024-04-30T10:35:09.029+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T10:35:09.127+05:30  INFO 21476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-30T10:35:09.131+05:30  INFO 21476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-30T10:35:10.340+05:30  INFO 21476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T10:35:10.533+05:30  INFO 21476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 1 JPA repository interfaces.
+2024-04-30T10:35:10.834+05:30  INFO 21476 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a82d20e5-b398-30c4-8ae7-4be6832d2fe1
+2024-04-30T10:35:11.498+05:30  INFO 21476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2024-04-30T10:35:11.511+05:30  INFO 21476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T10:35:11.512+05:30  INFO 21476 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-04-30T10:35:11.630+05:30  INFO 21476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T10:35:11.630+05:30  INFO 21476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2498 ms
+2024-04-30T10:35:11.952+05:30  INFO 21476 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T10:35:12.085+05:30  INFO 21476 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-04-30T10:35:12.538+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30T10:35:12.940+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46b6a587
+2024-04-30T10:35:12.944+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30T10:35:13.033+05:30  INFO 21476 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-04-30T10:35:15.726+05:30  INFO 21476 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-30T10:35:15.743+05:30  INFO 21476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T10:35:16.293+05:30  WARN 21476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T10:35:16.809+05:30  INFO 21476 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1d3e3011, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ce06f46, org.springframework.security.web.context.SecurityContextHolderFilter@6d378515, org.springframework.security.web.header.HeaderWriterFilter@37ca5872, org.springframework.security.web.authentication.logout.LogoutFilter@2a0b8b35, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5edef2be, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@53c6ed74, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@a739453, com.sudipta.auth.config.JwtTokenValidator@57780075, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6b35ad3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4153860b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e027ac8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3baa1c33, org.springframework.security.web.session.SessionManagementFilter@17533cc5, org.springframework.security.web.access.ExceptionTranslationFilter@4ebf1081, org.springframework.security.web.access.intercept.AuthorizationFilter@a58ffab]
+2024-04-30T10:35:17.529+05:30  INFO 21476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-30T10:35:17.713+05:30  INFO 21476 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-04-30T10:35:18.117+05:30  WARN 21476 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30T10:35:18.227+05:30  INFO 21476 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-04-30T10:35:18.309+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-04-30T10:35:18.318+05:30  INFO 21476 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-30T10:35:18.368+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-04-30T10:35:18.369+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-04-30T10:35:18.370+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-04-30T10:35:18.370+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-04-30T10:35:18.370+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-04-30T10:35:18.370+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-04-30T10:35:18.370+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-04-30T10:35:18.825+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-04-30T10:35:18.829+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-04-30T10:35:18.834+05:30  INFO 21476 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30T10:35:18.839+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1714453518838 with initial instances count: 1
+2024-04-30T10:35:18.841+05:30  INFO 21476 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MEMO-KART-AUTH with eureka with status UP
+2024-04-30T10:35:18.842+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1714453518842, current=UP, previous=STARTING]
+2024-04-30T10:35:18.843+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000: registering service...
+2024-04-30T10:35:18.884+05:30  INFO 21476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2024-04-30T10:35:18.885+05:30  INFO 21476 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5000
+2024-04-30T10:35:18.895+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - registration status: 204
+2024-04-30T10:35:19.116+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : Started AuthApplication in 11.062 seconds (process running for 12.421)
+2024-04-30T10:35:59.121+05:30  INFO 21476 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 43 class path changes (0 additions, 0 deletions, 43 modifications)
+2024-04-30T10:35:59.169+05:30  INFO 21476 --- [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MEMO-KART-AUTH with eureka with status DOWN
+2024-04-30T10:35:59.171+05:30  INFO 21476 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1714453559171, current=DOWN, previous=UP]
+2024-04-30T10:35:59.171+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000: registering service...
+2024-04-30T10:35:59.182+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - registration status: 204
+2024-04-30T10:35:59.250+05:30  INFO 21476 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-30T10:35:59.315+05:30  INFO 21476 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T10:35:59.322+05:30  INFO 21476 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30T10:35:59.406+05:30  INFO 21476 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-30T10:35:59.407+05:30  INFO 21476 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-04-30T10:36:02.440+05:30  INFO 21476 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-04-30T10:36:02.455+05:30  INFO 21476 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - deregister  status: 200
+2024-04-30T10:36:02.463+05:30  INFO 21476 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-04-30T10:36:03.408+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : Starting AuthApplication using Java 17.0.9 with PID 21476 (C:\Users\SUDIPSAH\OneDrive - Capgemini\Desktop\MemoKart 2904\spring boot microservices\memok3rt-auth\target\classes started by sudipsah in C:\Users\SUDIPSAH\OneDrive - Capgemini\Desktop\MemoKart 2904\spring boot microservices\memok3rt-auth)
+2024-04-30T10:36:03.410+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T10:36:04.775+05:30  INFO 21476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T10:36:04.837+05:30  INFO 21476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2024-04-30T10:36:05.129+05:30  INFO 21476 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a82d20e5-b398-30c4-8ae7-4be6832d2fe1
+2024-04-30T10:36:05.304+05:30  INFO 21476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2024-04-30T10:36:05.305+05:30  INFO 21476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T10:36:05.306+05:30  INFO 21476 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-04-30T10:36:05.425+05:30  INFO 21476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T10:36:05.426+05:30  INFO 21476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2012 ms
+2024-04-30T10:36:05.528+05:30  INFO 21476 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T10:36:05.554+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-04-30T10:36:05.588+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c1b56f6
+2024-04-30T10:36:05.588+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-04-30T10:36:05.590+05:30  INFO 21476 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-04-30T10:36:06.145+05:30  INFO 21476 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-30T10:36:06.146+05:30  INFO 21476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T10:36:06.395+05:30  WARN 21476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T10:36:06.652+05:30  INFO 21476 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5cc79f92, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fd410c8, org.springframework.security.web.context.SecurityContextHolderFilter@cbc6fd9, org.springframework.security.web.header.HeaderWriterFilter@28d3460d, org.springframework.security.web.authentication.logout.LogoutFilter@1b7350ee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@642e6d69, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@322b8527, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@579f3beb, com.sudipta.auth.config.JwtTokenValidator@404d4154, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@655bb50c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6945eecc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b943ec7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20967dc0, org.springframework.security.web.session.SessionManagementFilter@636156e4, org.springframework.security.web.access.ExceptionTranslationFilter@26787c8e, org.springframework.security.web.access.intercept.AuthorizationFilter@f8784f6]
+2024-04-30T10:36:06.901+05:30  INFO 21476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-30T10:36:07.386+05:30  INFO 21476 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-04-30T10:36:07.652+05:30  WARN 21476 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30T10:36:07.692+05:30  INFO 21476 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-04-30T10:36:07.697+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-04-30T10:36:07.699+05:30  INFO 21476 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-30T10:36:07.715+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-04-30T10:36:07.715+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-04-30T10:36:07.715+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-04-30T10:36:07.716+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-04-30T10:36:07.716+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-04-30T10:36:07.716+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-04-30T10:36:07.716+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-04-30T10:36:07.754+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-04-30T10:36:07.756+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-04-30T10:36:07.758+05:30  INFO 21476 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30T10:36:07.760+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1714453567760 with initial instances count: 2
+2024-04-30T10:36:07.762+05:30  INFO 21476 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MEMO-KART-AUTH with eureka with status UP
+2024-04-30T10:36:07.762+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1714453567762, current=UP, previous=STARTING]
+2024-04-30T10:36:07.763+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000: registering service...
+2024-04-30T10:36:07.772+05:30  INFO 21476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2024-04-30T10:36:07.773+05:30  INFO 21476 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5000
+2024-04-30T10:36:07.779+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - registration status: 204
+2024-04-30T10:36:07.991+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : Started AuthApplication in 5.431 seconds (process running for 61.296)
+2024-04-30T10:36:07.996+05:30  INFO 21476 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-30T10:36:24.061+05:30  INFO 21476 --- [http-nio-5000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30T10:36:24.062+05:30  INFO 21476 --- [http-nio-5000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30T10:36:24.066+05:30  INFO 21476 --- [http-nio-5000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-04-30T10:36:24.677+05:30  INFO 21476 --- [http-nio-5000-exec-1] c.s.auth.controller.AuthController       : Logger:Sign in successfully
+2024-04-30T10:38:11.652+05:30  INFO 21476 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-30T10:38:11.654+05:30  INFO 21476 --- [Thread-9] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MEMO-KART-AUTH with eureka with status DOWN
+2024-04-30T10:38:11.654+05:30  INFO 21476 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1714453691654, current=DOWN, previous=UP]
+2024-04-30T10:38:11.654+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000: registering service...
+2024-04-30T10:38:11.666+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - registration status: 204
+2024-04-30T10:38:11.667+05:30  INFO 21476 --- [Thread-9] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-30T10:38:11.667+05:30  INFO 21476 --- [Thread-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-04-30T10:38:11.673+05:30  INFO 21476 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T10:38:11.673+05:30  INFO 21476 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-04-30T10:38:11.680+05:30  INFO 21476 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-04-30T10:38:11.680+05:30  INFO 21476 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-04-30T10:38:14.692+05:30  INFO 21476 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-04-30T10:38:14.709+05:30  INFO 21476 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - deregister  status: 200
+2024-04-30T10:38:14.714+05:30  INFO 21476 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-04-30T10:38:15.015+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : Starting AuthApplication using Java 17.0.9 with PID 21476 (C:\Users\SUDIPSAH\OneDrive - Capgemini\Desktop\MemoKart 2904\spring boot microservices\memok3rt-auth\target\classes started by sudipsah in C:\Users\SUDIPSAH\OneDrive - Capgemini\Desktop\MemoKart 2904\spring boot microservices\memok3rt-auth)
+2024-04-30T10:38:15.016+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T10:38:15.399+05:30  INFO 21476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T10:38:15.421+05:30  INFO 21476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2024-04-30T10:38:15.513+05:30  INFO 21476 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a82d20e5-b398-30c4-8ae7-4be6832d2fe1
+2024-04-30T10:38:15.596+05:30  INFO 21476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2024-04-30T10:38:15.597+05:30  INFO 21476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30T10:38:15.598+05:30  INFO 21476 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-04-30T10:38:15.644+05:30  INFO 21476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30T10:38:15.644+05:30  INFO 21476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 626 ms
+2024-04-30T10:38:15.695+05:30  INFO 21476 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30T10:38:15.711+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-04-30T10:38:15.728+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37b5cc68
+2024-04-30T10:38:15.728+05:30  INFO 21476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-04-30T10:38:15.729+05:30  INFO 21476 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-04-30T10:38:16.109+05:30  INFO 21476 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-30T10:38:16.110+05:30  INFO 21476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T10:38:16.344+05:30  WARN 21476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T10:38:16.513+05:30  INFO 21476 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2ad512f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a42977d, org.springframework.security.web.context.SecurityContextHolderFilter@36becff3, org.springframework.security.web.header.HeaderWriterFilter@b1b8ae2, org.springframework.security.web.authentication.logout.LogoutFilter@1c939e0c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@20424793, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@25bdf23a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@743eb836, com.sudipta.auth.config.JwtTokenValidator@46f217fd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@20a1de75, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@617314a6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36e8def0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4432e77e, org.springframework.security.web.session.SessionManagementFilter@3ee5b47b, org.springframework.security.web.access.ExceptionTranslationFilter@7064ffd5, org.springframework.security.web.access.intercept.AuthorizationFilter@261adfb7]
+2024-04-30T10:38:16.627+05:30  INFO 21476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-30T10:38:16.822+05:30  INFO 21476 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-04-30T10:38:17.044+05:30  WARN 21476 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30T10:38:17.062+05:30  INFO 21476 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-04-30T10:38:17.065+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-04-30T10:38:17.065+05:30  INFO 21476 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-30T10:38:17.066+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-04-30T10:38:17.067+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-04-30T10:38:17.067+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-04-30T10:38:17.067+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-04-30T10:38:17.067+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-04-30T10:38:17.067+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-04-30T10:38:17.067+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-04-30T10:38:17.091+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-04-30T10:38:17.093+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-04-30T10:38:17.093+05:30  INFO 21476 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30T10:38:17.094+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1714453697094 with initial instances count: 2
+2024-04-30T10:38:17.097+05:30  INFO 21476 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MEMO-KART-AUTH with eureka with status UP
+2024-04-30T10:38:17.097+05:30  INFO 21476 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1714453697097, current=UP, previous=STARTING]
+2024-04-30T10:38:17.097+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000: registering service...
+2024-04-30T10:38:17.106+05:30  INFO 21476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2024-04-30T10:38:17.106+05:30  INFO 21476 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5000
+2024-04-30T10:38:17.109+05:30  INFO 21476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMO-KART-AUTH/LIN-7B8D3J3.corp.capgemini.com:memo-kart-auth:5000 - registration status: 204
+2024-04-30T10:38:17.307+05:30  INFO 21476 --- [restartedMain] com.sudipta.auth.AuthApplication         : Started AuthApplication in 2.517 seconds (process running for 190.611)
+2024-04-30T10:38:17.309+05:30  INFO 21476 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

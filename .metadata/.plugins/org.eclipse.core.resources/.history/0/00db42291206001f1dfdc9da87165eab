@@ -1,0 +1,85 @@
+package com.sudipta.auth.modal;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.validator.constraints.Length;
+
+import com.sudipta.auth.dto.Address;
+import com.sudipta.auth.dto.PaymentInformation;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "users")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class User {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "first_name")
+    @NotEmpty
+    @Pattern(regexp="[a-zA-Z]*",message="First Name should contain only letter")
+    private String firstName;
+
+    @NotEmpty
+    @Pattern(regexp="[a-zA-Z]*",message="Last Name should contain only letter")
+    @Column(name = "last_name")
+    private String lastName;
+
+    @NotEmpty
+    @Column(name = "password")
+    @Size(min=8,message="Password should be at least 8 characters long")
+    @Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$",
+                message = "Password needs 1 uppercase [A-Z], 1 lowercase [a-z], 1 number [0-9], and 1 special character!")
+    
+
+    private String password;
+
+    @NotEmpty
+    @Email
+    @Column(name = "email")
+    private String email;
+
+    @NotEmpty
+    @Column(name = "role")
+    @Pattern(regexp = "ROLE_ADMIN||ROLE_CUSTOMER", message="Role mismatched")
+    private String role;
+
+    @NotEmpty
+    @Pattern(regexp="[0-9]{10}",message="Mobile Number should contain only number")
+    @Length(min=10,max=10,message="Mobile number should contain 10 digits only")
+    @Column(name = "mobile")
+    private String mobile;
+
+    
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Address> addresses=new ArrayList<>();
+
+    @Embedded
+    @ElementCollection
+    @CollectionTable(name="payment_information",joinColumns = @JoinColumn(name="user_id"))
+    private List<PaymentInformation> paymentInformation=new ArrayList<>();
+
+    // @JsonIgnore
+    // @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,orphanRemoval = true)
+    // private List<Rating>ratings=new ArrayList<>();
+    
+    // @JsonIgnore
+    // @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,orphanRemoval = true)
+    // private List<Review>reviews=new ArrayList<>();
+    
+    private LocalDateTime createdAt;
+
+    
+}
